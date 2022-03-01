@@ -1,6 +1,6 @@
 # Spring MVC Chuck Norris Jokes App
 
-Spring MVC Chuck Norris Jokes App.
+Spring MVC Chuck Norris Jokes App. ( EDITED BY kurt-ab)
 
 This repository contains code to support my online courses. Learn more using the links below!
 
