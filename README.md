@@ -1,7 +1,7 @@
 # Spring MVC Chuck Norris Jokes App
 
 Spring MVC Chuck Norris Jokes App. ( EDITED BY kurt-ab)
-
+2 March 2022 - added maven-deps branch
 This repository contains code to support my online courses. Learn more using the links below!
 
 You can learn more about the courses here:
