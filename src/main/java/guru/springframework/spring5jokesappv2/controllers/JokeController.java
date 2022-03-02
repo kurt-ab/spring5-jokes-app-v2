@@ -1,11 +1,15 @@
 package guru.springframework.spring5jokesappv2.controllers;
 
 import guru.springframework.spring5jokesappv2.services.JokeService;
+<<<<<<< HEAD
 import org.springframework.beans.factory.annotation.Autowired;
+=======
+>>>>>>> 306d77501f960288330184be72b38fbb05919cd4
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+<<<<<<< HEAD
 /*
 So a quick recap.
 What I did in this video is we went and created the controllers package.
@@ -31,21 +35,37 @@ We will implement the index view in the next video.
  */
 
 
+=======
+/**
+ * Created by jt on 1/23/21.
+ */
+>>>>>>> 306d77501f960288330184be72b38fbb05919cd4
 @Controller
 public class JokeController {
 
     private final JokeService jokeService;
 
+<<<<<<< HEAD
     @Autowired /* we can omit this because there is one constructor in the class */
+=======
+>>>>>>> 306d77501f960288330184be72b38fbb05919cd4
     public JokeController(JokeService jokeService) {
         this.jokeService = jokeService;
     }
 
     @RequestMapping({"/", ""})
+<<<<<<< HEAD
     /* view name returns in String  */
     public String showJoke(Model model){
         /* model is a map implementation, we are adding in a property with the string */
         model.addAttribute("jokes",jokeService.getJoke());
         return "index"; /* will be replaced with view */
+=======
+    public String showJoke(Model model) {
+
+        model.addAttribute("joke", jokeService.getJoke());
+
+        return "index";
+>>>>>>> 306d77501f960288330184be72b38fbb05919cd4
     }
 }
