@@ -2,7 +2,7 @@
 
 Spring MVC Chuck Norris Jokes App.
 
-ADDED JOKE SERVICE BY kurt-ab
+ADDED JOKE CONTROLLER BY kurt-ab
 
 This repository contains code to support my online courses. Learn more using the links below!
 
